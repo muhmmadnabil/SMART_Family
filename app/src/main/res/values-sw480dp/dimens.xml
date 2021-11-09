@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="animation_fragment" type="layout">@layout/animation_fragment</item>
+    <item name="base_fragment" type="layout">@layout/base_fragment</item>
+    <item name="events_fragment" type="layout">@layout/events_fragment</item>
+    <item name="info_fragment" type="layout">@layout/fragment_info</item>
+    <item name="member_fragment" type="layout">@layout/fragment_member</item>
+    <item name="ranking_fragment" type="layout">@layout/fragment_ranking</item>
+
+
+
+    <dimen name="animation_fragment_iv1_marginEnd">152dp</dimen>
+    <dimen name="animation_fragment_iv1_marginBottom">700dp</dimen>
+    <dimen name="animation_fragment_iv2_marginEnd">16dp</dimen>
+    <dimen name="animation_fragment_iv_smart_marginTop">100dp</dimen>
+    <dimen name="animation_fragment_tv_marginBottom">172dp</dimen>
+    <dimen name="animation_fragment_tv_textSize">50sp</dimen>
+    <dimen name="animation_fragment_iv3_marginTop">750dp</dimen>
+    <dimen name="animation_fragment_iv3_marginEnd">350dp</dimen>
+
+    <dimen name="base_fragment_padding">30dp</dimen>
+    <dimen name="base_fragment_textSize">100dp</dimen>
+    <dimen name="base_fragment_progress_size">100dp</dimen>
+
+    <dimen name="events_fragment_button_marginTop">60dp</dimen>
+    <dimen name="events_fragment_title_marginTop">60dp</dimen>
+    <dimen name="events_fragment_title_marginStart">70dp</dimen>
+    <dimen name="events_fragment_icon_marginTop">60dp</dimen>
+    <dimen name="events_fragment_recyclerview_height">650dp</dimen>
+    <dimen name="events_fragment_icon_marginStart">20dp</dimen>
+    <dimen name="events_fragment_icon_marginEnd">0dp</dimen>
+    <dimen name="events_fragment_recyclerview_marginTop">20dp</dimen>
+    <dimen name="events_fragment_recyclerview_marginEnd">24dp</dimen>
+    <dimen name="events_fragment_recyclerview_marginStart">24dp</dimen>
+
+    <dimen name="info_fragment_firstIcon_marginEnd">520dp</dimen>
+    <dimen name="info_fragment_secondIcon_marginStart">550dp</dimen>
+    <dimen name="info_fragment_secondIcon_marginTop">64dp</dimen>
+    <dimen name="info_fragment_smartIcon_marginBottom">200dp</dimen>
+    <dimen name="info_fragment_view_height">300dp</dimen>
+    <dimen name="info_fragment_view_marginStart">11dp</dimen>
+    <dimen name="info_fragment_view_marginEnd">11dp</dimen>
+    <dimen name="info_fragment_view1_marginTop">250dp</dimen>
+    <dimen name="info_fragment_tv1_marginTop">9dp</dimen>
+    <dimen name="info_fragment_tv1_marginEnd">12dp</dimen>
+    <dimen name="info_fragment_tv1_textSize">35sp</dimen>
+    <dimen name="info_fragment_tv2_width">550dp</dimen>
+    <dimen name="info_fragment_tv2_height">230dp</dimen>
+    <dimen name="info_fragment_tv2_marginStart">10dp</dimen>
+    <dimen name="info_fragment_tv2_marginTop">9dp</dimen>
+    <dimen name="info_fragment_tv2_textSize">25sp</dimen>
+    <dimen name="info_fragment_view2_marginTop">21dp</dimen>
+    <dimen name="info_fragment_tv3_textSize">35sp</dimen>
+    <dimen name="info_fragment_tv3_marginTop">18dp</dimen>
+    <dimen name="info_fragment_tv3_marginEnd">16dp</dimen>
+    <dimen name="info_fragment_tv4_width">550dp</dimen>
+    <dimen name="info_fragment_tv4_height">230dp</dimen>
+    <dimen name="info_fragment_tv4_marginStart">26dp</dimen>
+    <dimen name="info_fragment_tv4_marginEnd">16dp</dimen>
+    <dimen name="info_fragment_tv4_marginBottom">6dp</dimen>
+    <dimen name="info_fragment_tv4_textSize">30sp</dimen>
+    <dimen name="info_fragment_view3_marginTop">20dp</dimen>
+    <dimen name="info_fragment_tv5_marginTop">12dp</dimen>
+    <dimen name="info_fragment_tv5_marginEnd">12dp</dimen>
+    <dimen name="info_fragment_tv5_textSize">35sp</dimen>
+    <dimen name="info_fragment_tv6_marginStart">200dp</dimen>
+    <dimen name="info_fragment_tv6_marginTop">12dp</dimen>
+    <dimen name="info_fragment_tv6_textSize">35sp</dimen>
+    <dimen name="info_fragment_tv7_width">550dp</dimen>
+    <dimen name="info_fragment_tv7_height">230dp</dimen>
+    <dimen name="info_fragment_tv7_marginStart">23dp</dimen>
+    <dimen name="info_fragment_tv7_marginTop">50dp</dimen>
+    <dimen name="info_fragment_tv7_marginBottom">21dp</dimen>
+    <dimen name="info_fragment_tv7_textSize">30sp</dimen>
+
+    <dimen name="member_fragment_iv1_marginEnd">320dp</dimen>
+    <dimen name="member_fragment_iv1_marginBottom">112dp</dimen>
+    <dimen name="member_fragment_iv2_width">110dp</dimen>
+    <dimen name="member_fragment_iv2_height">100dp</dimen>
+    <dimen name="member_fragment_iv2_marginStart">178dp</dimen>
+    <dimen name="member_fragment_iv2_marginEnd">27dp</dimen>
+    <dimen name="member_fragment_iv2_marginBottom">24dp</dimen>
+    <dimen name="member_fragment_person_width">150dp</dimen>
+    <dimen name="member_fragment_person_height">150dp</dimen>
+    <dimen name="member_fragment_person_marginStart">32dp</dimen>
+    <dimen name="member_fragment_person_marginTop">78dp</dimen>
+    <dimen name="member_fragment_tv1_marginStart">17dp</dimen>
+    <dimen name="member_fragment_tv1_marginTop">107dp</dimen>
+    <dimen name="member_fragment_tv1_textSize">30sp</dimen>
+    <dimen name="member_fragment_tv2_marginStart">17dp</dimen>
+    <dimen name="member_fragment_tv2_marginTop">6dp</dimen>
+    <dimen name="member_fragment_tv2_textSize">30sp</dimen>
+    <dimen name="member_fragment_iv3_marginStart">210dp</dimen>
+    <dimen name="member_fragment_iv3_marginTop">221dp</dimen>
+    <dimen name="member_fragment_iv3_marginEnd">122dp</dimen>
+    <dimen name="member_fragment_view_height">669dp</dimen>
+    <dimen name="member_fragment_view_marginTop">350dp</dimen>
+    <dimen name="member_fragment_iv4_width">57dp</dimen>
+    <dimen name="member_fragment_iv4_height">57dp</dimen>
+    <dimen name="member_fragment_iv4_marginStart">48dp</dimen>
+    <dimen name="member_fragment_iv4_marginTop">64dp</dimen>
+    <dimen name="member_fragment_iv5_width">51dp</dimen>
+    <dimen name="member_fragment_iv5_height">51dp</dimen>
+    <dimen name="member_fragment_iv5_marginStart">76dp</dimen>
+    <dimen name="member_fragment_iv5_marginTop">80dp</dimen>
+    <dimen name="member_fragment_tv3_marginStart">42dp</dimen>
+    <dimen name="member_fragment_tv3_marginTop">41dp</dimen>
+    <dimen name="member_fragment_tv3_textSize">37sp</dimen>
+    <dimen name="member_fragment_tv4_marginStart">42dp</dimen>
+    <dimen name="member_fragment_tv4_marginTop">94dp</dimen>
+    <dimen name="member_fragment_tv4_textSize">20sp</dimen>
+    <dimen name="member_fragment_iv6_marginStart">40dp</dimen>
+    <dimen name="member_fragment_iv6_marginTop">220dp</dimen>
+    <dimen name="member_fragment_email_marginStart">40dp</dimen>
+    <dimen name="member_fragment_email_marginTop">230dp</dimen>
+    <dimen name="member_fragment_email_textSize">30sp</dimen>
+    <dimen name="member_fragment_iv7_marginStart">40dp</dimen>
+    <dimen name="member_fragment_iv7_marginTop">70dp</dimen>
+    <dimen name="member_fragment_name_marginStart">30dp</dimen>
+    <dimen name="member_fragment_name_marginTop">360dp</dimen>
+    <dimen name="member_fragment_name_textSize">30sp</dimen>
+    <dimen name="member_fragment_iv8_marginStart">50dp</dimen>
+    <dimen name="member_fragment_iv8_marginTop">70dp</dimen>
+    <dimen name="member_fragment_iv8_marginBottom">25dp</dimen>
+    <dimen name="member_fragment_number_marginStart">30dp</dimen>
+    <dimen name="member_fragment_number_marginBottom">30dp</dimen>
+    <dimen name="member_fragment_number_textSize">30sp</dimen>
+
+    <dimen name="ranking_fragment_tv1_marginTop">70dp</dimen>
+    <dimen name="ranking_fragment_tv1_marginEnd">216dp</dimen>
+    <dimen name="ranking_fragment_tv1_textSize">42sp</dimen>
+    <dimen name="ranking_fragment_tv2_marginStart">10dp</dimen>
+    <dimen name="ranking_fragment_tv2_marginEnd">10dp</dimen>
+    <dimen name="ranking_fragment_tv2_textSize">26sp</dimen>
+    <dimen name="ranking_fragment_iv1_marginStart">8dp</dimen>
+    <dimen name="ranking_fragment_iv1_marginEnd">8dp</dimen>
+    <dimen name="ranking_fragment_iv1_marginTop">80dp</dimen>
+    <dimen name="ranking_fragment_iv1_marginBottom">40dp</dimen>
+    <dimen name="ranking_fragment_president_marginTop">150dp</dimen>
+    <dimen name="ranking_fragment_president_textSize">13sp</dimen>
+    <dimen name="ranking_fragment_vicePresident_marginTop">250dp</dimen>
+    <dimen name="ranking_fragment_headSection_marginTop">350dp</dimen>
+    <dimen name="ranking_fragment_viceSection_marginTop">450dp</dimen>
+    <dimen name="ranking_fragment_member_marginTop">550dp</dimen>
+
+    <dimen name="president_fragment_tv1_marginTop">50dp</dimen>
+    <dimen name="president_fragment_tv1_textSize">35sp</dimen>
+    <dimen name="president_fragment_tv2_marginTop">30dp</dimen>
+    <dimen name="president_fragment_tv2_paddingStart">25dp</dimen>
+    <dimen name="president_fragment_tv2_paddingTop">5dp</dimen>
+    <dimen name="president_fragment_tv2_paddingEnd">25dp</dimen>
+    <dimen name="president_fragment_tv2_paddingBottom">5dp</dimen>
+    <dimen name="president_fragment_tv2_textSize">30sp</dimen>
+    <dimen name="president_fragment_iv_width">170dp</dimen>
+    <dimen name="president_fragment_iv_height">170dp</dimen>
+    <dimen name="president_fragment_iv2_founder_marginStart">35dp</dimen>
+    <dimen name="president_fragment_iv2_founder_marginTop">30dp</dimen>
+    <dimen name="president_fragment_tv_current_marginTop">15dp</dimen>
+    <dimen name="president_fragment_tv_current_textSize">30sp</dimen>
+    <dimen name="president_fragment_tv3_marginTop">13dp</dimen>
+    <dimen name="president_fragment_iv_previous_marginTop">30dp</dimen>
+    <dimen name="president_fragment_iv_previous_marginEnd">35dp</dimen>
+    <dimen name="president_fragment_tv2_founder_marginTop">15dp</dimen>
+    <dimen name="president_fragment_tv2_founder_marginBottom">24dp</dimen>
+    <dimen name="president_fragment_tv2_founder_textSize">30sp</dimen>
+    <dimen name="president_fragment_tv4_marginTop">13dp</dimen>
+    <dimen name="president_fragment_tv5_marginTop">60dp</dimen>
+    <dimen name="president_fragment_tv5_paddingStart">25dp</dimen>
+    <dimen name="president_fragment_tv5_paddingTop">4dp</dimen>
+    <dimen name="president_fragment_tv5_paddingEnd">25dp</dimen>
+    <dimen name="president_fragment_tv5_paddingBottom">6dp</dimen>
+    <dimen name="president_fragment_tv5_textSize">30sp</dimen>
+    <dimen name="president_fragment_iv1_founder_marginStart">35dp</dimen>
+    <dimen name="president_fragment_iv1_founder_marginTop">25dp</dimen>
+    <dimen name="president_fragment_tv_previous_marginTop">8dp</dimen>
+    <dimen name="president_fragment_tv_previous_marginBottom">24dp</dimen>
+    <dimen name="president_fragment_tv_previous_textSize">30sp</dimen>
+    <dimen name="president_fragment_iv_current_marginTop">24dp</dimen>
+    <dimen name="president_fragment_iv_current_marginEnd">32dp</dimen>
+    <dimen name="president_fragment_tv1_founder_marginTop">15dp</dimen>
+    <dimen name="president_fragment_tv1_founder_textSize">30sp</dimen>
+
+
+
+</resources>

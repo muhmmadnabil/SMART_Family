@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen2_1"
+    tools:context=".ui.president.PresidentFragment">
+
+
+    <TextView
+        android:id="@+id/president_tv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv1_marginTop"
+        android:gravity="center"
+        android:text="@string/there_are_the_presidents"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/president_fragment_tv1_textSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/president_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv2_marginTop"
+        android:background="@drawable/text_shape"
+        android:gravity="center"
+        android:paddingStart="@dimen/president_fragment_tv2_paddingStart"
+        android:paddingTop="@dimen/president_fragment_tv2_paddingTop"
+        android:paddingEnd="@dimen/president_fragment_tv2_paddingEnd"
+        android:paddingBottom="@dimen/president_fragment_tv2_paddingBottom"
+        android:text="@string/current"
+        android:textColor="@color/green"
+        android:textSize="@dimen/president_fragment_tv2_textSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv1" />
+
+
+    <ImageView
+        android:id="@+id/president_iv2_founder"
+        android:layout_width="@dimen/president_fragment_iv_width"
+        android:layout_height="@dimen/president_fragment_iv_height"
+        android:layout_marginStart="@dimen/president_fragment_iv2_founder_marginStart"
+        android:layout_marginTop="@dimen/president_fragment_iv2_founder_marginTop"
+        android:background="@color/cardview_dark_background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv5" />
+
+    <TextView
+        android:id="@+id/president_tv_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv_current_marginTop"
+        android:text="@string/ahmed_abubakr"
+        android:textColor="#3a3a3a"
+        android:textSize="@dimen/president_fragment_tv_current_textSize"
+        app:layout_constraintEnd_toEndOf="@+id/president_iv_current"
+        app:layout_constraintStart_toStartOf="@+id/president_iv_current"
+        app:layout_constraintTop_toBottomOf="@+id/president_iv_current" />
+
+    <TextView
+        android:id="@+id/president_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv3_marginTop"
+        android:textColor="#006578"
+        android:textStyle="bold"
+        android:textSize="@dimen/president_fragment_tv3_textSize"
+        app:layout_constraintEnd_toEndOf="@+id/president_tv_current"
+        app:layout_constraintStart_toStartOf="@+id/president_tv_current"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv_current"
+        tools:text="president" />
+
+    <ImageView
+        android:id="@+id/president_iv_previous"
+        android:layout_width="@dimen/president_fragment_iv_width"
+        android:layout_height="@dimen/president_fragment_iv_height"
+        android:layout_marginTop="@dimen/president_fragment_iv_previous_marginTop"
+        android:layout_marginEnd="@dimen/president_fragment_iv_previous_marginEnd"
+        android:background="@color/cardview_dark_background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv5" />
+
+    <TextView
+        android:id="@+id/president_tv2_founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv2_founder_marginTop"
+        android:layout_marginBottom="@dimen/president_fragment_tv2_founder_marginBottom"
+        android:letterSpacing="0.05"
+        android:text="@string/eslam_ali"
+        android:textColor="#3a3a3a"
+        android:textSize="@dimen/president_fragment_tv2_founder_textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/president_iv2_founder"
+        app:layout_constraintStart_toStartOf="@+id/president_iv2_founder"
+        app:layout_constraintTop_toBottomOf="@+id/president_iv2_founder"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/president_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv4_marginTop"
+        android:textColor="#006578"
+        android:textStyle="bold"
+        android:textSize="@dimen/president_fragment_tv4_textSize"
+        app:layout_constraintEnd_toEndOf="@+id/president_tv1_founder"
+        app:layout_constraintStart_toStartOf="@+id/president_tv1_founder"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv1_founder"
+        tools:text="Founder" />
+
+    <TextView
+        android:id="@+id/president_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv5_marginTop"
+        android:background="@drawable/text_shape"
+        android:paddingStart="@dimen/president_fragment_tv5_paddingStart"
+        android:paddingTop="@dimen/president_fragment_tv5_paddingTop"
+        android:paddingEnd="@dimen/president_fragment_tv5_paddingEnd"
+        android:paddingBottom="@dimen/president_fragment_tv5_paddingBottom"
+        android:text="@string/previous"
+        android:textColor="#b00000"
+        android:textSize="@dimen/president_fragment_tv5_textSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv3" />
+
+    <ImageView
+        android:id="@+id/president_iv1_founder"
+        android:layout_width="@dimen/president_fragment_iv_width"
+        android:layout_height="@dimen/president_fragment_iv_height"
+        android:layout_marginStart="@dimen/president_fragment_iv1_founder_marginStart"
+        android:layout_marginTop="@dimen/president_fragment_iv1_founder_marginTop"
+        android:background="@color/cardview_dark_background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv2" />
+
+    <TextView
+        android:id="@+id/president_tv_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv_previous_marginTop"
+        android:layout_marginBottom="@dimen/president_fragment_tv_previous_marginBottom"
+        android:text="@string/beshoy_kadous"
+        android:textColor="#3a3a3a"
+        android:textSize="@dimen/president_fragment_tv_previous_textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/president_iv_previous"
+        app:layout_constraintStart_toStartOf="@+id/president_iv_previous"
+        app:layout_constraintTop_toBottomOf="@+id/president_iv_previous"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/president_iv_current"
+        android:layout_width="@dimen/president_fragment_iv_width"
+        android:layout_height="@dimen/president_fragment_iv_height"
+        android:layout_marginTop="@dimen/president_fragment_iv_current_marginTop"
+        android:layout_marginEnd="@dimen/president_fragment_iv_current_marginEnd"
+        android:background="@color/cardview_dark_background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/president_tv2" />
+
+    <TextView
+        android:id="@+id/president_tv1_founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/president_fragment_tv1_founder_marginTop"
+        android:text="@string/eslam_ali"
+        android:textColor="#3a3a3a"
+        android:textSize="@dimen/president_fragment_tv1_founder_textSize"
+        app:layout_constraintEnd_toEndOf="@+id/president_iv1_founder"
+        app:layout_constraintStart_toStartOf="@+id/president_iv1_founder"
+        app:layout_constraintTop_toBottomOf="@+id/president_iv1_founder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

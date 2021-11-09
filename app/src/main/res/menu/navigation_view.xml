@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/nav_ranking"
+        android:title="career ranking"
+        android:icon="@drawable/ic_ranking" />
+
+    <item android:id="@+id/nav_qr"
+        android:title="scan QR code"
+        android:icon="@drawable/ic_qr" />
+
+    <item android:id="@+id/nav_info"
+        android:title="info"
+        android:icon="@drawable/ic_info" />
+
+</menu>

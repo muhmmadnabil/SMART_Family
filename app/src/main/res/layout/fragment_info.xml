@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen2_1"
+    tools:context=".InfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/info_fragment_firstIcon_marginEnd"
+                android:src="@drawable/path_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/info_fragment_secondIcon_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_secondIcon_marginTop"
+                android:src="@drawable/ellipse_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/info_fragment_smartIcon_marginBottom"
+                android:layout_marginStart="@dimen/info_fragment_smartIcon_marginStart"
+                android:layout_marginEnd="@dimen/info_fragment_smartIcon_marginEnd"
+                android:contentDescription="@string/image"
+                android:src="@drawable/ic_smart"
+                app:layout_constraintBottom_toTopOf="@+id/info_view2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <View
+                android:id="@+id/info_view1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/info_fragment_view_height"
+                android:layout_marginStart="@dimen/info_fragment_view_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_view1_marginTop"
+                android:layout_marginEnd="@dimen/info_fragment_view_marginEnd"
+                android:background="@drawable/info_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/president_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_fragment_tv1_marginTop"
+                android:layout_marginEnd="@dimen/info_fragment_tv1_marginEnd"
+                android:text="@string/info_tv1"
+                android:textColor="@color/red"
+                android:textSize="@dimen/info_fragment_tv1_textSize"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/info_view1"
+                app:layout_constraintTop_toTopOf="@+id/info_view1" />
+
+            <TextView
+                android:id="@+id/info_tv2"
+                android:layout_width="@dimen/info_fragment_tv2_width"
+                android:layout_height="@dimen/info_fragment_tv2_height"
+                android:layout_marginStart="@dimen/info_fragment_tv2_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_tv2_marginTop"
+                android:text="@string/info_tv2"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/info_fragment_tv2_textSize"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/info_view1"
+                app:layout_constraintEnd_toEndOf="@+id/info_view1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/info_view1"
+                app:layout_constraintTop_toTopOf="@+id/info_view1"
+                app:layout_constraintVertical_bias="0.842" />
+
+            <View
+                android:id="@+id/info_view2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/info_fragment_view_height"
+                android:layout_marginStart="@dimen/info_fragment_view_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_view2_marginTop"
+                android:layout_marginEnd="@dimen/info_fragment_view_marginEnd"
+                android:background="@drawable/info_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/info_tv2"/>
+
+            <TextView
+                android:id="@+id/info_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_fragment_tv3_marginTop"
+                android:layout_marginEnd="@dimen/info_fragment_tv3_marginEnd"
+                android:text="@string/info_tv3"
+                android:textColor="@color/red"
+                android:textSize="@dimen/info_fragment_tv3_textSize"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/info_view2"
+                app:layout_constraintTop_toTopOf="@+id/info_view2" />
+
+            <TextView
+                android:id="@+id/info_tv4"
+                android:layout_width="@dimen/info_fragment_tv4_width"
+                android:layout_height="@dimen/info_fragment_tv4_height"
+                android:layout_marginStart="@dimen/info_fragment_tv4_marginStart"
+                android:layout_marginEnd="@dimen/info_fragment_tv4_marginEnd"
+                android:layout_marginBottom="@dimen/info_fragment_tv4_marginBottom"
+                android:text="@string/info_tv4"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/info_fragment_tv4_textSize"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/info_view2"
+                app:layout_constraintEnd_toEndOf="@+id/info_view2"
+                app:layout_constraintHorizontal_bias="0.901"
+                app:layout_constraintStart_toStartOf="@+id/info_view2" />
+
+            <View
+                android:id="@+id/info_view3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/info_fragment_view_height"
+                android:layout_marginStart="@dimen/info_fragment_view_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_view3_marginTop"
+                android:layout_marginEnd="@dimen/info_fragment_view_marginEnd"
+                android:background="@drawable/info_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/info_view2"/>
+
+            <TextView
+                android:id="@+id/info_tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_fragment_tv5_marginTop"
+                android:layout_marginEnd="@dimen/info_fragment_tv5_marginEnd"
+                android:gravity="end"
+                android:text="@string/info_tv5"
+                android:textColor="@color/red"
+                android:textSize="@dimen/info_fragment_tv5_textSize"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/info_view3"
+                app:layout_constraintTop_toTopOf="@+id/info_view3" />
+
+            <TextView
+                android:id="@+id/info_tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/info_fragment_tv6_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_tv6_marginTop"
+                android:text="@string/smart"
+                android:textColor="@color/red"
+                android:textSize="@dimen/info_fragment_tv6_textSize"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/info_view3"
+                app:layout_constraintTop_toTopOf="@+id/info_view3" />
+
+            <TextView
+                android:id="@+id/info_tv7"
+                android:layout_width="@dimen/info_fragment_tv7_width"
+                android:layout_height="@dimen/info_fragment_tv7_height"
+                android:layout_marginStart="@dimen/info_fragment_tv7_marginStart"
+                android:layout_marginTop="@dimen/info_fragment_tv7_marginTop"
+                android:layout_marginBottom="@dimen/info_fragment_tv7_marginBottom"
+                android:text="@string/info_tv7"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/info_fragment_tv7_textSize"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/info_view3"
+                app:layout_constraintEnd_toEndOf="@+id/info_view3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/info_view3"
+                app:layout_constraintTop_toTopOf="@+id/info_view3"
+                app:layout_constraintVertical_bias="0.127" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
