@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,22 +11,21 @@
     <TextView
         android:id="@+id/president_tv1"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/president_fragment_tv1_marginTop"
+        android:layout_height="0dp"
         android:gravity="center"
         android:text="@string/there_are_the_presidents"
         android:textColor="@color/gray"
         android:textSize="@dimen/president_fragment_tv1_textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/gl_president_title_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/gl_president_title_top" />
 
     <TextView
         android:id="@+id/president_tv2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/president_fragment_tv2_marginTop"
+        android:layout_height="0dp"
         android:background="@drawable/text_shape"
         android:gravity="center"
         android:paddingStart="@dimen/president_fragment_tv2_paddingStart"
@@ -38,9 +36,10 @@
         android:textColor="@color/green"
         android:textSize="@dimen/president_fragment_tv2_textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/gl_president_current_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/president_tv1" />
+        app:layout_constraintTop_toTopOf="@id/gl_president_current_top" />
 
 
     <ImageView
@@ -73,8 +72,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/president_fragment_tv3_marginTop"
         android:textColor="#006578"
-        android:textStyle="bold"
         android:textSize="@dimen/president_fragment_tv3_textSize"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/president_tv_current"
         app:layout_constraintStart_toStartOf="@+id/president_tv_current"
         app:layout_constraintTop_toBottomOf="@+id/president_tv_current"
@@ -114,8 +113,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/president_fragment_tv4_marginTop"
         android:textColor="#006578"
-        android:textStyle="bold"
         android:textSize="@dimen/president_fragment_tv4_textSize"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/president_tv1_founder"
         app:layout_constraintStart_toStartOf="@+id/president_tv1_founder"
         app:layout_constraintTop_toBottomOf="@+id/president_tv1_founder"
@@ -124,8 +123,7 @@
     <TextView
         android:id="@+id/president_tv5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/president_fragment_tv5_marginTop"
+        android:layout_height="0dp"
         android:background="@drawable/text_shape"
         android:paddingStart="@dimen/president_fragment_tv5_paddingStart"
         android:paddingTop="@dimen/president_fragment_tv5_paddingTop"
@@ -135,21 +133,22 @@
         android:textColor="#b00000"
         android:textSize="@dimen/president_fragment_tv5_textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/gl_president_previous_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/president_tv3" />
+        app:layout_constraintTop_toTopOf="@id/gl_president_previous_top" />
 
     <ImageView
         android:id="@+id/president_iv1_founder"
-        android:layout_width="@dimen/president_fragment_iv_width"
-        android:layout_height="@dimen/president_fragment_iv_height"
-        android:layout_marginStart="@dimen/president_fragment_iv1_founder_marginStart"
-        android:layout_marginTop="@dimen/president_fragment_iv1_founder_marginTop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@color/cardview_dark_background"
         android:contentDescription="@string/image"
         android:src="@drawable/ic_launcher_foreground"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/president_tv2" />
+        app:layout_constraintBottom_toBottomOf="@id/gl_president_current_founder_bottom"
+        app:layout_constraintEnd_toEndOf="@id/gl_president_current_founder_end"
+        app:layout_constraintStart_toStartOf="@id/gl_president_current_founder_start"
+        app:layout_constraintTop_toTopOf="@id/gl_president_current_founder_top" />
 
     <TextView
         android:id="@+id/president_tv_previous"
@@ -189,5 +188,76 @@
         app:layout_constraintEnd_toEndOf="@+id/president_iv1_founder"
         app:layout_constraintStart_toStartOf="@+id/president_iv1_founder"
         app:layout_constraintTop_toBottomOf="@+id/president_iv1_founder" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_title_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_title_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.039" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_current_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.099" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_current_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.149" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_previous_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.465" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_previous_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.515" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_current_founder_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.177" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_current_founder_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_current_founder_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_president_current_founder_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.42" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
