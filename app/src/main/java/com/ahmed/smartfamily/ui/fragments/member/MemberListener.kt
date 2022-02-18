@@ -1,4 +1,4 @@
-package com.ahmed.smartfamily.ui.member
+package com.ahmed.smartfamily.ui.fragments.member
 
 import com.ahmed.smartfamily.data.model.Members
 

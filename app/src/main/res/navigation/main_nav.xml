@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/animationFragment"
-        android:name="com.ahmed.smartfamily.ui.splash.AnimationFragment"
+        android:name="com.ahmed.smartfamily.ui.fragments.splash.AnimationFragment"
         android:label="fragment_animation"
         tools:layout="@layout/fragment_animation" >
         <action
@@ -18,12 +18,12 @@
     </fragment>
     <fragment
         android:id="@+id/imagesFragment"
-        android:name="com.ahmed.smartfamily.ui.president.PresidentFragment"
+        android:name="com.ahmed.smartfamily.ui.fragments.member.president.PresidentFragment"
         android:label="fragment_images"
         tools:layout="@layout/fragment_president" />
     <fragment
         android:id="@+id/rankingFragment"
-        android:name="com.ahmed.smartfamily.ui.rank.RankingFragment"
+        android:name="com.ahmed.smartfamily.ui.fragments.rank.RankingFragment"
         android:label="fragment_ranking"
         tools:layout="@layout/fragment_ranking">
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/QRFragment"
-        android:name="com.ahmed.smartfamily.ui.qr.QRFragment"
+        android:name="com.ahmed.smartfamily.ui.fragments.qr.QRFragment"
         android:label="fragment_qr"
         tools:layout="@layout/fragment_qr" >
         <action
@@ -41,12 +41,12 @@
     </fragment>
     <fragment
         android:id="@+id/infoFragment"
-        android:name="com.ahmed.smartfamily.InfoFragment"
+        android:name="com.ahmed.smartfamily.ui.fragments.info.InfoFragment"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" />
     <fragment
         android:id="@+id/memberFragment"
-        android:name="com.ahmed.smartfamily.ui.member.MemberFragment"
+        android:name="com.ahmed.smartfamily.ui.fragments.member.MemberFragment"
         android:label="fragment_member"
         tools:layout="@layout/fragment_member" >
         <argument

@@ -1,11 +1,14 @@
-package com.ahmed.smartfamily
+package com.ahmed.smartfamily.ui.fragments.events
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.ahmed.smartfamily.CustomAdapter
+import com.ahmed.smartfamily.R
 import com.ahmed.smartfamily.databinding.FragmentEventsBinding
+import com.ahmed.smartfamily.ui.fragments.base.BaseFragment
 
 class EventsFragment : BaseFragment<FragmentEventsBinding>() {
 
@@ -27,7 +30,7 @@ class EventsFragment : BaseFragment<FragmentEventsBinding>() {
         myArray.add(R.drawable.event_1)
         myArray.add(R.drawable.event_1)
         myArray.add(R.drawable.event_1)
-        val myAdapter=CustomAdapter(myArray)
+        val myAdapter= CustomAdapter(myArray)
         binding.recyclerView.adapter=myAdapter
     }
 }

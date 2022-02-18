@@ -1,4 +1,4 @@
-package com.ahmed.smartfamily.ui.member
+package com.ahmed.smartfamily.ui.fragments.member
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.ahmed.smartfamily.BaseFragment
+import com.ahmed.smartfamily.ui.fragments.base.BaseFragment
 import com.ahmed.smartfamily.data.model.Members
 import com.ahmed.smartfamily.databinding.FragmentMemberBinding
 import com.ahmed.smartfamily.utils.CheckInternetConnection

@@ -1,4 +1,4 @@
-package com.ahmed.smartfamily.ui.qr
+package com.ahmed.smartfamily.ui.fragments.qr
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.ahmed.smartfamily.BaseFragment
+import com.ahmed.smartfamily.ui.fragments.base.BaseFragment
 import com.ahmed.smartfamily.R
 import com.ahmed.smartfamily.databinding.FragmentQrBinding
 import com.budiyev.android.codescanner.*

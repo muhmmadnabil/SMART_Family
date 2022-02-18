@@ -1,4 +1,4 @@
-package com.ahmed.smartfamily
+package com.ahmed.smartfamily.ui.fragments.base
 
 import android.app.Dialog
 import android.content.Context
@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.viewbinding.ViewBinding
+import com.ahmed.smartfamily.R
 
 
 abstract class BaseFragment<T : ViewBinding> : Fragment() {

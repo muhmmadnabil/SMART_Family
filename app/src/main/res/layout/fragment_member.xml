@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/screen2_1"
-    tools:context=".ui.member.MemberFragment">
+    tools:context=".ui.fragments.member.MemberFragment">
 
     <ImageView
         android:id="@+id/member_iv1"

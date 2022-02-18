@@ -5,8 +5,8 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="horizontal"
-    android:padding="@dimen/base_fragment_padding"
-    tools:context=".BaseFragment">
+    android:padding="@dimen/_30sdp"
+    tools:context=".ui.fragments.base.BaseFragment">
 
 
     <ProgressBar
@@ -14,15 +14,15 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scrollbarSize="@dimen/base_fragment_progress_size" />
+        android:scrollbarSize="@dimen/_30sdp" />
 
     <TextView
         android:id="@+id/base_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="@dimen/_16sdp"
         android:text="@string/please_wait"
         android:textColor="@color/black"
-        android:textSize="@dimen/base_fragment_textSize" />
+        android:textSize="@dimen/_30sdp" />
 
 </LinearLayout>

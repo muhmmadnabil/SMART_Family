@@ -5,53 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_screen1_1"
-    tools:context=".ui.splash.AnimationFragment">
+    tools:context=".ui.fragments.splash.AnimationFragment">
 
     <ImageView
         android:id="@+id/animation_iv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/animation_fragment_iv1_marginEnd"
-        android:layout_marginBottom="@dimen/animation_fragment_iv1_marginBottom"
+        android:layout_marginEnd="@dimen/_150sdp"
+        android:layout_marginBottom="@dimen/_360sdp"
+        android:contentDescription="@string/image"
         android:src="@drawable/group_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/image" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/animation_iv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/animation_fragment_iv2_marginEnd"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/image"
         android:src="@drawable/path_3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233"
-        android:contentDescription="@string/image" />
+        app:layout_constraintVertical_bias="0.295" />
 
     <ImageView
         android:id="@+id/animation_iv_smart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/animation_fragment_iv_smart_marginTop"
-        android:layout_marginEnd="@dimen/animation_fragment_iv_smart_marginEnd"
         android:layout_marginStart="@dimen/animation_fragment_iv_smart_marginStart"
+        android:layout_marginTop="@dimen/_88sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:contentDescription="@string/image"
         android:src="@drawable/ic_smart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/image" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/animation_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/animation_fragment_tv_marginBottom"
+        android:layout_marginBottom="@dimen/_120sdp"
         android:text="@string/activate_your_mind"
         android:textColor="#ccffffff"
-        android:textSize="@dimen/animation_fragment_tv_textSize"
+        android:textSize="@dimen/_25ssp"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/animation_iv3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,10 +61,10 @@
         android:id="@+id/animation_iv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/animation_fragment_iv3_marginTop"
-        android:layout_marginEnd="@dimen/animation_fragment_iv3_marginEnd"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:layout_marginEnd="@dimen/_180sdp"
+        android:contentDescription="@string/image"
         android:src="@drawable/group_62"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/image" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

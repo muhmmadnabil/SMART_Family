@@ -1,10 +1,11 @@
-package com.ahmed.smartfamily
+package com.ahmed.smartfamily.ui.fragments.info
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.ahmed.smartfamily.R
 
 
 class InfoFragment : Fragment() {

@@ -1,4 +1,4 @@
-package com.ahmed.smartfamily.ui.splash
+package com.ahmed.smartfamily.ui.fragments.splash
 
 import android.os.Handler
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.ahmed.smartfamily.BaseFragment
+import com.ahmed.smartfamily.ui.fragments.base.BaseFragment
 import com.ahmed.smartfamily.R
 import com.ahmed.smartfamily.databinding.FragmentAnimationBinding
 

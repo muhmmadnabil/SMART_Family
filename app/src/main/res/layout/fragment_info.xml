@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/screen2_1"
-    tools:context=".InfoFragment">
+    tools:context=".ui.fragments.info.InfoFragment">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -19,30 +19,30 @@
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/info_fragment_firstIcon_marginEnd"
+                android:layout_marginEnd="@dimen/_280sdp"
+                android:contentDescription="@string/image"
                 android:src="@drawable/path_2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/image" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/info_fragment_secondIcon_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_secondIcon_marginTop"
+                android:layout_marginStart="@dimen/_280sdp"
+                android:layout_marginTop="@dimen/_64sdp"
+                android:contentDescription="@string/image"
                 android:src="@drawable/ellipse_2"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/image" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/info_fragment_smartIcon_marginBottom"
                 android:layout_marginStart="@dimen/info_fragment_smartIcon_marginStart"
                 android:layout_marginEnd="@dimen/info_fragment_smartIcon_marginEnd"
+                android:layout_marginBottom="@dimen/_210sdp"
                 android:contentDescription="@string/image"
                 android:src="@drawable/ic_smart"
                 app:layout_constraintBottom_toTopOf="@+id/info_view2"
@@ -53,10 +53,10 @@
             <View
                 android:id="@+id/info_view1"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/info_fragment_view_height"
-                android:layout_marginStart="@dimen/info_fragment_view_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_view1_marginTop"
-                android:layout_marginEnd="@dimen/info_fragment_view_marginEnd"
+                android:layout_height="@dimen/_260sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_200sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
                 android:background="@drawable/info_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -67,24 +67,24 @@
                 android:id="@+id/president_tv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/info_fragment_tv1_marginTop"
-                android:layout_marginEnd="@dimen/info_fragment_tv1_marginEnd"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
                 android:text="@string/info_tv1"
                 android:textColor="@color/red"
-                android:textSize="@dimen/info_fragment_tv1_textSize"
+                android:textSize="@dimen/_20ssp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/info_view1"
                 app:layout_constraintTop_toTopOf="@+id/info_view1" />
 
             <TextView
                 android:id="@+id/info_tv2"
-                android:layout_width="@dimen/info_fragment_tv2_width"
-                android:layout_height="@dimen/info_fragment_tv2_height"
-                android:layout_marginStart="@dimen/info_fragment_tv2_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_tv2_marginTop"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_210sdp"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:text="@string/info_tv2"
                 android:textColor="@color/gray"
-                android:textSize="@dimen/info_fragment_tv2_textSize"
+                android:textSize="@dimen/_17ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/info_view1"
                 app:layout_constraintEnd_toEndOf="@+id/info_view1"
@@ -96,38 +96,38 @@
             <View
                 android:id="@+id/info_view2"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/info_fragment_view_height"
-                android:layout_marginStart="@dimen/info_fragment_view_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_view2_marginTop"
-                android:layout_marginEnd="@dimen/info_fragment_view_marginEnd"
+                android:layout_height="@dimen/_165sdp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:layout_marginTop="@dimen/_21sdp"
+                android:layout_marginEnd="@dimen/_11sdp"
                 android:background="@drawable/info_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/info_tv2"/>
+                app:layout_constraintTop_toBottomOf="@+id/info_tv2" />
 
             <TextView
                 android:id="@+id/info_tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/info_fragment_tv3_marginTop"
-                android:layout_marginEnd="@dimen/info_fragment_tv3_marginEnd"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
                 android:text="@string/info_tv3"
                 android:textColor="@color/red"
-                android:textSize="@dimen/info_fragment_tv3_textSize"
+                android:textSize="@dimen/_20ssp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/info_view2"
                 app:layout_constraintTop_toTopOf="@+id/info_view2" />
 
             <TextView
                 android:id="@+id/info_tv4"
-                android:layout_width="@dimen/info_fragment_tv4_width"
-                android:layout_height="@dimen/info_fragment_tv4_height"
-                android:layout_marginStart="@dimen/info_fragment_tv4_marginStart"
-                android:layout_marginEnd="@dimen/info_fragment_tv4_marginEnd"
-                android:layout_marginBottom="@dimen/info_fragment_tv4_marginBottom"
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="@dimen/_115sdp"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:text="@string/info_tv4"
                 android:textColor="@color/gray"
-                android:textSize="@dimen/info_fragment_tv4_textSize"
+                android:textSize="@dimen/_17ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/info_view2"
                 app:layout_constraintEnd_toEndOf="@+id/info_view2"
@@ -137,25 +137,25 @@
             <View
                 android:id="@+id/info_view3"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/info_fragment_view_height"
-                android:layout_marginStart="@dimen/info_fragment_view_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_view3_marginTop"
-                android:layout_marginEnd="@dimen/info_fragment_view_marginEnd"
+                android:layout_height="@dimen/_180sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
                 android:background="@drawable/info_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/info_view2"/>
+                app:layout_constraintTop_toBottomOf="@+id/info_view2" />
 
             <TextView
                 android:id="@+id/info_tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/info_fragment_tv5_marginTop"
-                android:layout_marginEnd="@dimen/info_fragment_tv5_marginEnd"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
                 android:gravity="end"
                 android:text="@string/info_tv5"
                 android:textColor="@color/red"
-                android:textSize="@dimen/info_fragment_tv5_textSize"
+                android:textSize="@dimen/_19ssp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/info_view3"
                 app:layout_constraintTop_toTopOf="@+id/info_view3" />
@@ -164,25 +164,25 @@
                 android:id="@+id/info_tv6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/info_fragment_tv6_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_tv6_marginTop"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:text="@string/smart"
                 android:textColor="@color/red"
-                android:textSize="@dimen/info_fragment_tv6_textSize"
+                android:textSize="@dimen/_19ssp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/info_view3"
                 app:layout_constraintTop_toTopOf="@+id/info_view3" />
 
             <TextView
                 android:id="@+id/info_tv7"
-                android:layout_width="@dimen/info_fragment_tv7_width"
-                android:layout_height="@dimen/info_fragment_tv7_height"
-                android:layout_marginStart="@dimen/info_fragment_tv7_marginStart"
-                android:layout_marginTop="@dimen/info_fragment_tv7_marginTop"
-                android:layout_marginBottom="@dimen/info_fragment_tv7_marginBottom"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_165sdp"
+                android:layout_marginStart="@dimen/_21sdp"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
                 android:text="@string/info_tv7"
                 android:textColor="@color/gray"
-                android:textSize="@dimen/info_fragment_tv7_textSize"
+                android:textSize="@dimen/_17ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/info_view3"
                 app:layout_constraintEnd_toEndOf="@+id/info_view3"
